@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Open+Sans:wght@300;500&display=swap');
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lugrasimo', cursive;
+    font-size: 15px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+.btn:hover {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.clock-time,
+.location-delails {
+    margin-left: 5px;
+}
+
+.logo img {
+    width: 30px;
+}
+.logo p{
+    font-family: 'Lugrasimo', cursive;
+   font-size: 10px;
+}
+
+.logo img:hover {
+    width: 45px;
+}
+
+.nav-link-style {
+    color: #cf6868;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.nav-link-style:hover {
+    color: black;
+}
+
+.banner-section {
+    background-image: url('../img/hero-img.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+@media screen and (max-width :768px) {
+    .banner-section  {
+        height: 140vh;
+    } 
+}
+.about-card {
+    margin-top: -40px;
+    margin-bottom: 50px;
+}
+
+.imgbox {
+    margin-left: 50px;
+}
+
+.imgbox img {
+    width: 250px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+.img1 {
+    margin-left: 90px;
+}
+
+.img2 {
+    margin-top: -200px;
+}
+
+.service {
+    background: rgb(204, 45, 45);
+    margin-top: -80px;
+    margin-bottom: 100px;
+}
+
+.service img {
+    width: 30px;
+    height: 30px;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.service-card:hover {
+    background-color: black;
+    color: white;
+}
+
+.facilities-card {
+    height: 200px;
+}
+
+video {
+    margin-bottom: -100px;
+}
+
+.hr {
+    border: 2px solid white;
+    width: 50%;
+    margin: auto;
+}
+
+.testimonial {
+    background: black;
+    height: 70px;
+    margin-top: -30px;
+    margin-bottom: 100px;
+}
+.testimonial h4{
+    margin-top: 15px;
+}
+.testimonial-card h6{
+   font-size: 13px;
+}
+.testimonial-card img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.carousel-indicators li {
+    cursor: pointer;
+    background: #e02b2b;
+    margin-left: 10px;
+    overflow: hidden;
+    border: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    opacity: 10;
+    transition: 0.3s;
+}
+
+.hospitaltour-item {
+    width: 20%;
+    height: 150px;
+}
+.tour-section btn{
+    margin-bottom: 20px;
+}
+
+.carousel-inner {
+    padding-bottom: 70px;
+}
+
+.among-section {
+    background-image: url('../img/hero-img.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.box-item {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    line-height: 100px;
+}
+
+.qualify-section {
+    background-color: rgb(235, 230, 224);
+}
+
+.choose-item i {
+    background-color: #e02b2b;
+    margin-inline: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: aliceblue;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.choose-item img {
+    width: 200px;
+    height: 170px;
+    margin-top: -15px;
+}
+
+.blog-title {
+    background-color: lightgrey;
+}
+
+.footer-logo {
+    width: 140px;
+}
+
+.footer-logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-icon {
+    margin-right: 33px;
+    margin-top: 10px;
+}
+
+.footer-icon ul li {
+    list-style: none;
+    margin-left: 5px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+.footer-details{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+}
+/* -----responsive----- */
