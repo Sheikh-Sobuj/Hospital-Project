@@ -7,7 +7,7 @@ h1,h2,h3,h4,h5,h6{
 
 p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 10px;
+    font-size: 16px;
 }
 .btn:hover {
     background-color: black;
@@ -35,7 +35,7 @@ p{
 .nav-link-style {
     color: #cf6868;
     font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .nav-link-style:hover {
@@ -128,15 +128,18 @@ video {
     border-radius: 50%;
     margin: auto;
 }
-
-.carousel-indicators li {
+.carousel-item img{
+    width: 68%;
+   height: 440px;
+}
+.carousel-indicators [data-bs-target]{
     cursor: pointer;
     background: #e02b2b;
     margin-left: 10px;
     overflow: hidden;
     border: 0;
-    width: 12px;
-    height: 12px;
+    width: 20px;
+    height: 20px;
     border-radius: 50px;
     opacity: 10;
     transition: 0.3s;
