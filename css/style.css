@@ -88,7 +88,7 @@ p{
 }
 
 .card-img-top {
-    height: auto;
+   height: 200px;
 }
 
 .service-card:hover {
@@ -97,7 +97,7 @@ p{
 }
 
 .facilities-card {
-    height: 200px;
+    height: auto;
 }
 
 video {
